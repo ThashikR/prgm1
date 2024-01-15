@@ -1,0 +1,102 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 120vh;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  flex: 1;
+}
+
+.featured-article {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.featured-article img {
+  width: 100%;
+  height: auto;
+}
+
+.article-info {
+  padding: 15px;
+  background-color: #f4f4f4;
+}
+
+.news-articles {
+  flex: 2;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+aside {
+  flex: 1;
+}
+
+.sidebar {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s; /* Add a smooth transition effect */
+}
+
+nav a:hover {
+  color: #ffd700; /* Change the color to your desired highlight color */
+}
+
+.article-image {
+  width: 100%; /* Ensure the image takes the full width of its container */
+  height: auto; /* Maintain the aspect ratio */
+  max-height: 250px; /* Set a maximum height for the image */
+  object-fit: cover; /* Ensure the image covers the container while maintaining its aspect ratio */
+  margin-bottom: 10px; /* Add some space below the image */
+}
